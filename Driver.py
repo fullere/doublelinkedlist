@@ -1,0 +1,20 @@
+from DoubleLinkedListClass import Double_Linked_List
+
+newList= Double_Linked_List()
+print(newList)
+newList.add_to_head(5)
+newList.add_to_head(4)
+newList.add_to_head(6)
+newList.add_to_head(9)
+print(newList)
+newList.push_end(8)
+print(newList)
+print(newList.pop_head())
+print(newList)
+
+print(newList.pop_end())
+print(newList)
+print(newList.pop_end())
+print(newList)
+newList.push_end(8)
+print(newList)
